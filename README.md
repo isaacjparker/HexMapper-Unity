@@ -11,6 +11,7 @@ HexMapper is a Unity tool designed to snap 3D hexagonal tiles to a hex grid. It 
 1. Download `HexMapper.cs` from `/Scripts`.
 2. Place the file into your Unity project's `Scripts` folder.
 3. Attach the HexMapper script to a GameObject, and it will snap in the scene view of the editor.
+4. The default inspector settings should work out of the box for KayKit hex tiles.
 
 ## Inspector Settings
 - **Hex Type**: Change the hexagon orientation type between POINT top and FLAT top. You can turn a POINT top hexagon into a FLAT top by rotating it 30 degrees. KayKit Hex Tilesets are POINT top by default.
