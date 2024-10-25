@@ -27,7 +27,7 @@ namespace HexMapper
         [Tooltip("Snap hex based on Custom grid size or object scale.")]
         public HexSnapSource HexSnapSource;
         [Tooltip("Requires apothem, not circumcircle radius.")]
-        public float customHexSize = 1.0f; // Distance from center to the midpoint of any edge. https://www.omnicalculator.com/math/hexagon
+        public float customHexInterval = 1.0f; // Distance from center to the midpoint of any edge. https://www.omnicalculator.com/math/hexagon
 
         [Header("Y Snap Settings")]
         [Tooltip("Activate or deactivate Y snapping.")]
@@ -179,7 +179,7 @@ namespace HexMapper
                 return transform.localScale.x;
             }
 
-            return customHexSize;
+            return customHexInterval;
         }
     }
 }
