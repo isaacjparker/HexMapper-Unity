@@ -2,6 +2,8 @@
 
 ### Hexagonal Tile Grid Snapping Tool for Unity
 
+![HexMapper in Action](./images/example.png)
+
 ## Introduction
 HexMapper is a Unity tool designed to snap 3D hexagonal tiles to a hex grid. It was originally made for use with hexagon tilesets by [Kay Lousberg](https://kaylousberg.itch.io/).
 
